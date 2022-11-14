@@ -31,7 +31,7 @@ export default function Skills({}: Props) {
               transition={{ duration: 1.2, delay: i * 0.15 }}
             >
               <Skill
-                key={item.id}
+                id={item.id}
                 icon={item.icon}
                 skillName={item.skillName}
                 exp={item.exp}
@@ -53,7 +53,7 @@ export default function Skills({}: Props) {
               transition={{ duration: 1.2, delay: i * 0.15 }}
             >
               <Skill
-                key={item.id}
+                id={item.id}
                 icon={item.icon}
                 skillName={item.skillName}
                 exp={item.exp}

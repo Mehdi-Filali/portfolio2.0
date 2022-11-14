@@ -6,7 +6,7 @@ import Logo from "../images/logo.png";
 
 type Props = {
   id: number;
-  icon: string;
+  icon: string | JSX.Element;
   skillName: string;
   exp: string;
   years: number;
