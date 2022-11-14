@@ -35,32 +35,22 @@ function Experience({}: Props) {
           effect="cards"
           className="w-full md:w-4/5 xl:w-1/2"
         >
-          {experiencesData.map(
-            ({
-              id,
-              picture,
-              jobName,
-              companyName,
-              languageIcons,
-              date,
-              missions,
-            }) => (
-              <SwiperSlide
-                key={id}
-                className="flex items-center justify-center !rounded-lg md:w-2/3 xl:w-1/2"
-              >
-                <ExperienceCard
-                  key={id}
-                  picture={picture}
-                  jobName={jobName}
-                  companyName={companyName}
-                  languageIcons={languageIcons}
-                  date={date}
-                  missions={missions}
-                />
-              </SwiperSlide>
-            )
-          )}
+          {experiencesData.map((item, index) => (
+            <SwiperSlide
+              key={item.id}
+              className="flex items-center justify-center !rounded-lg md:w-2/3 xl:w-1/2"
+            >
+              <ExperienceCard
+                id={item.id}
+                picture={item.picture}
+                jobName={item.jobName}
+                companyName={item.companyName}
+                languageIcons={item.languageIcons}
+                date={item.date}
+                missions={item.missions}
+              />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </motion.div>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import CardPic from "../images/web-coding.jpg";
@@ -9,12 +9,12 @@ import { experiencesData } from "../data/experiencesData";
 
 type Props = {
   id: number;
-  picture: string;
+  picture: StaticImageData;
   jobName: string;
   companyName: string;
-  languageIcons: [string];
+  languageIcons: JSX.Element[] | undefined;
   date: string;
-  missions: [string];
+  missions: string[];
 };
 
 export default function ExperienceCard({
