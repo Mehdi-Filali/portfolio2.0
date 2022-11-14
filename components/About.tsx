@@ -21,7 +21,7 @@ function About({}: Props) {
         initial={{ x: -200 }}
         whileInView={{ x: 0 }}
         transition={{ duration: 1.5 }}
-        className="mt-20 md:mb-0 flex-shrink-0"
+        className="mt-24 md:mb-0 flex-shrink-0"
       >
         <div className="relative w-40 h-40 md:w-64 rounded-full md:h-95 xl:w-[500px] xl:h-[600px] md:rounded-lg overflow-hidden">
           <Image
@@ -43,13 +43,15 @@ function About({}: Props) {
         <h4 className="xl:text-4xl text-2xl font-semibold">
           Un aperçu de mon parcours
         </h4>
-        <p className="text-sm">
+        <p className="hidden xl:block text-sm">
           Mon parcours débute à l’école Webstart (Paris 10e). J’y ai appris les
           bases du développement web côté front et back. J’ai également appris à
           utiliser les logiciels de la suite Adobe. Ce qui, aujourd’hui, me
           permet d’avoir un profil polyvalent, de développeur/designer
           front-end.
           <br />
+        </p>
+        <p className="text-sm">
           <br />
           Passionné par le monde digital, j’aime me challengé en apprenant de
           nouvelles technologies et réaliser de nouveaux projets afin de grandir
