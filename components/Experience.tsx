@@ -45,7 +45,6 @@ function Experience({}: Props) {
                 picture={item.picture}
                 jobName={item.jobName}
                 companyName={item.companyName}
-                languageIcons={item.languageIcons}
                 date={item.date}
                 missions={item.missions}
               />

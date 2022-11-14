@@ -11,11 +11,6 @@ export const experiencesData = [
     picture: dynamique,
     jobName: "Développeur React - Mission Freelance",
     companyName: "Dynamic' Assainissement",
-    languageIcons: [
-      <FaReact key="first" />,
-      <TbBrandJavascript key="second" />,
-      <FaSass key="third" />,
-    ],
     date: "2021-2022",
     missions: [
       "Réalisation des maquettes graphiques sur chaque support (tablettes, mobile et desktop).",
@@ -28,11 +23,6 @@ export const experiencesData = [
     picture: feuille,
     jobName: "Développeur Front-End - Mission Freelance",
     companyName: "lafeuilleposee",
-    // languageIcons: [
-    //   <FaReact key="first" />,
-    //   <TbBrandJavascript key="second" />,
-    //   <FaSass key="third" />,
-    // ],
     date: "2021",
     missions: [
       "Participation à la conception de la charte graphique à partir d'un logo donné.",
@@ -45,11 +35,6 @@ export const experiencesData = [
     picture: elp,
     jobName: "Développeur Front-End - Mission Freelance",
     companyName: "ELP - Ouverture",
-    languageIcons: [
-      <FaReact key="first" />,
-      <TbBrandJavascript key="second" />,
-      <SiTailwindcss key="third" />,
-    ],
     date: "2019-2020",
     missions: [
       "Participation à la conception de la charte graphique à partir d'une première version du site.",

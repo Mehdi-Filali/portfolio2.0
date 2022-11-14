@@ -12,7 +12,6 @@ type Props = {
   picture: StaticImageData;
   jobName: string;
   companyName: string;
-  languageIcons: JSX.Element[] | undefined;
   date: string;
   missions: string[];
 };
@@ -22,7 +21,6 @@ export default function ExperienceCard({
   picture,
   jobName,
   companyName,
-  languageIcons,
   date,
   missions,
 }: Props) {
@@ -47,10 +45,6 @@ export default function ExperienceCard({
       <div className="px-0 md:px-10">
         <h4 className="text-xl md:text-4xl font-light">{jobName}</h4>
         <p className="md:text-2xl text-lg font-bold mt-1">{companyName}</p>
-
-        <div className="">
-          <div className="flex space-x-2 my-2 text-xl">{languageIcons}</div>
-        </div>
 
         <p className="uppercase py-5 text-gray-400">{date}</p>
 
