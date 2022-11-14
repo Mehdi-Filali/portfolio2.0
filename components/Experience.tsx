@@ -38,7 +38,7 @@ function Experience({}: Props) {
           {experiencesData.map((item, index) => (
             <SwiperSlide
               key={item.id}
-              className="flex items-center justify-center !rounded-lg md:w-2/3 xl:w-1/2"
+              className="flex items-center justify-center !rounded-lg md:w-2/3 xl:w-1/2 mt-20 md:mt-0"
             >
               <ExperienceCard
                 id={item.id}
