@@ -32,7 +32,7 @@ export default function ExperienceCard({
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.2 }}
       key={id}
-      className="flex flex-col items-center space-y-7 flex-shrink-0 w-full h-full bg-[#2f2f2f] border-x-2 border-x-[#F7AB0A]/20 p-10"
+      className="flex flex-col items-center space-y-7 flex-shrink-0 w-full bg-[#2f2f2f] border-x-2 border-x-[#F7AB0A]/20 p-3 md:p-10"
     >
       <div className="relative w-32 h-32 rounded-full overflow-hidden xl:w-[200px] xl:h-[200px] border-1 border-black shadow-md bg-white">
         <Image
@@ -45,8 +45,8 @@ export default function ExperienceCard({
       </div>
 
       <div className="px-0 md:px-10">
-        <h4 className="text-4xl font-light">{jobName}</h4>
-        <p className="text-2xl font-bold mt-1">{companyName}</p>
+        <h4 className="text-xl md:text-4xl font-light">{jobName}</h4>
+        <p className="md:text-2xl text-lg font-bold mt-1">{companyName}</p>
 
         <div className="">
           <div className="flex space-x-2 my-2 text-xl">{languageIcons}</div>
