@@ -23,7 +23,7 @@ function About({}: Props) {
         transition={{ duration: 1.5 }}
         className="mt-20 md:mb-0 flex-shrink-0"
       >
-        <div className="relative w-56 h-56 md:w-64 rounded-full md:h-95 xl:w-[500px] xl:h-[600px] md:rounded-lg overflow-hidden">
+        <div className="relative w-40 h-40 md:w-64 rounded-full md:h-95 xl:w-[500px] xl:h-[600px] md:rounded-lg overflow-hidden">
           <Image
             src={Design}
             alt="Photo about"
@@ -38,20 +38,17 @@ function About({}: Props) {
         initial={{ x: 200 }}
         whileInView={{ x: 0 }}
         transition={{ duration: 1.5 }}
-        className="px-0 md:px-10 space-y-10"
+        className="px-0 md:px-10 space-y-6"
       >
-        <h4 className="text-4xl font-semibold">Un aperçu de mon parcours</h4>
+        <h4 className="xl:text-4xl text-2xl font-semibold">
+          Un aperçu de mon parcours
+        </h4>
         <p className="text-sm">
           Mon parcours débute à l’école Webstart (Paris 10e). J’y ai appris les
           bases du développement web côté front et back. J’ai également appris à
           utiliser les logiciels de la suite Adobe. Ce qui, aujourd’hui, me
           permet d’avoir un profil polyvalent, de développeur/designer
           front-end.
-          <br />
-          <br />
-          De nature autodidacte, j’ai réalisé, en parallèle de mon
-          apprentissage, de nombreux projets personnels. Cela m’a aidé à
-          parfaire les connaissances que j’ai acquises durant ma formation.
           <br />
           <br />
           Passionné par le monde digital, j’aime me challengé en apprenant de
