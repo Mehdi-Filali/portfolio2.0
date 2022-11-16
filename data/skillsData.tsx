@@ -5,7 +5,6 @@ import {
   SiBootstrap,
   SiTypescript,
   SiNextdotjs,
-  SiMongodb,
   SiHtml5,
 } from "react-icons/si";
 
@@ -43,49 +42,41 @@ export const skillsData = [
 export const frameworksData = [
   {
     id: 1,
-    icon: <SiMongodb color="#50AD3E" />,
-    skillName: "MongoDB",
-    exp: "50%",
-    years: 1.2,
-  },
-  {
-    id: 2,
     icon: <FaReact color="#5ED3F2" />,
     skillName: "React",
     exp: "60%",
     years: 1.4,
   },
   {
-    id: 3,
+    id: 2,
     icon: <FaSass color="#CF6A9E" />,
     skillName: "Sass",
     exp: "50%",
     years: 1.8,
   },
   {
-    id: 4,
+    id: 3,
     icon: <SiTailwindcss color="#36B7F0" />,
     skillName: "TailwindCss",
     exp: "50%",
     years: 1.8,
   },
   {
-    id: 5,
+    id: 4,
     icon: <SiNextdotjs color="#000" />,
     skillName: "NextJs",
     exp: "50%",
     years: 1.4,
   },
   {
-    id: 6,
+    id: 5,
     icon: <SiBootstrap color="#7912F2" />,
     skillName: "Bootstrap",
     exp: "50%",
     years: 1.8,
   },
-
   {
-    id: 7,
+    id: 6,
     icon: <FaNodeJs color="#89C34D" />,
     skillName: "NodeJs",
     exp: "50%",
