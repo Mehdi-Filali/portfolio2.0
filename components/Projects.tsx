@@ -28,7 +28,7 @@ export default function Projects({}: Props) {
             key={project.id}
           >
             <motion.div
-              initial={{ opacity: 0, x: -100 }}
+              initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1.5 }}
               // viewport={{ once: true }}
