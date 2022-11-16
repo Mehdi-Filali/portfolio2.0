@@ -19,7 +19,7 @@ export default function ContactMe({}: Props) {
 
   return (
     <div className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-4 md:px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-20 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
       </h3>
 
@@ -34,19 +34,19 @@ export default function ContactMe({}: Props) {
         <div className="space-y-6 md:space-y-10">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <a href="tel:+33 6 50 67 16 33" className="text-xl md:text-2xl">
+            <a href="tel:+33 6 50 67 16 33" className="text-lg md:text-2xl">
               06 50 67 16 33
             </a>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-xl md:text-2xl">aniq.filali.mehdi@gmail.com</p>
+            <p className="text-lg md:text-2xl">aniq.filali.mehdi@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <MapIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-xl md:text-2xl">
+            <p className="text-lg md:text-2xl">
               1 Square Charles Baudelaire, Evry
             </p>
           </div>
@@ -87,7 +87,7 @@ export default function ContactMe({}: Props) {
 
           <button
             type="submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg hover:bg-[#F7AB0A]/90 hover:text-white transition ease-in"
+            className="bg-[#F7AB0A] py-4 md:py-5 px-10 rounded-md text-black font-bold text-lg hover:bg-[#F7AB0A]/90 hover:text-white transition ease-in"
           >
             Envoyer
           </button>
