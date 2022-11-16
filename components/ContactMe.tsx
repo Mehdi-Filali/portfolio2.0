@@ -60,14 +60,14 @@ export default function ContactMe({}: Props) {
             <input
               {...register("name")}
               placeholder="Name"
-              className="contactInput sm:w-1/2"
+              className="contactInput w-1/2"
               type="text"
             />
 
             <input
               {...register("email")}
               placeholder="Email"
-              className="contactInput sm:w-1/2"
+              className="contactInput w-1/2"
               type="email"
             />
           </div>
