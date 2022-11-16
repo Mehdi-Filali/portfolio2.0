@@ -38,7 +38,7 @@ function About({}: Props) {
         initial={{ x: 200 }}
         whileInView={{ x: 0 }}
         transition={{ duration: 1.5 }}
-        className="px-0 mb-16 md:mb-8 md:px-10 space-y-6"
+        className="px-0 mb-16 md:mb-8 md:px-10 space-y-4 md:space-y-6"
       >
         <h4 className="xl:text-4xl text-2xl font-semibold">
           Un aperçu de mon parcours
