@@ -21,7 +21,7 @@ function About({}: Props) {
         initial={{ x: -200 }}
         whileInView={{ x: 0 }}
         transition={{ duration: 1.5 }}
-        className="mt-24 md:mb-0 flex-shrink-0"
+        className="mt-16 md:mt-24 md:mb-0 flex-shrink-0"
       >
         <div className="relative w-40 h-40 md:w-64 rounded-full md:h-95 xl:w-[500px] xl:h-[600px] md:rounded-lg overflow-hidden">
           <Image
