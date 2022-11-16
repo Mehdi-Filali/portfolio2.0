@@ -39,7 +39,7 @@ export const experiencesData = [
     missions: [
       "Participation à la conception de la charte graphique à partir d'une première version du site.",
       "Réalisation des maquettes graphiques sur chaque support (tablettes, mobile et desktop).",
-      "Participation au développement du site avec Wordpress et le template Divy.",
+      "Participation au développement du site avec Wordpress et le template DIVI.",
     ],
   },
 ];
