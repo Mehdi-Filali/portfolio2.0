@@ -30,7 +30,7 @@ export default function ExperienceCard({
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.2 }}
       key={id}
-      className="flex flex-col items-center space-y-7 flex-shrink-0 w-full bg-[#2f2f2f] border-x-2 border-x-[#F7AB0A]/20 p-3 md:p-10"
+      className="flex flex-col items-center space-y-5 md:space-y-7 flex-shrink-0 w-full bg-[#2f2f2f] border-x-2 border-x-[#F7AB0A]/20 p-3 md:p-10"
     >
       <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden xl:w-[200px] xl:h-[200px] border-1 border-black shadow-md bg-white">
         <Image
