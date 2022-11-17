@@ -21,7 +21,7 @@ function About({}: Props) {
         initial={{ x: -200 }}
         whileInView={{ x: 0 }}
         transition={{ duration: 1.5 }}
-        className="mt-24 md:mt-24 md:mb-0 flex-shrink-0"
+        className="mt-16 md:mt-24 md:mb-0 flex-shrink-0"
       >
         <div className="relative w-32 h-32 md:w-64 rounded-full md:h-95 xl:w-[500px] xl:h-[600px] md:rounded-lg overflow-hidden">
           <Image
@@ -38,7 +38,7 @@ function About({}: Props) {
         initial={{ x: 200 }}
         whileInView={{ x: 0 }}
         transition={{ duration: 1.5 }}
-        className="px-0 mb-24 md:mb-8 md:px-10 space-y-1 md:space-y-6"
+        className="px-0 mb-32 md:mb-8 md:px-10 space-y-1 md:space-y-6"
       >
         <h4 className="xl:text-4xl text-2xl font-semibold">
           Un aperçu de mon parcours
