@@ -23,7 +23,7 @@ function About({}: Props) {
         transition={{ duration: 1.5 }}
         className="mt-24 md:mt-24 md:mb-0 flex-shrink-0"
       >
-        <div className="relative w-40 h-40 md:w-64 rounded-full md:h-95 xl:w-[500px] xl:h-[600px] md:rounded-lg overflow-hidden">
+        <div className="relative w-32 h-32 md:w-64 rounded-full md:h-95 xl:w-[500px] xl:h-[600px] md:rounded-lg overflow-hidden">
           <Image
             src={Design}
             alt="Photo about"
