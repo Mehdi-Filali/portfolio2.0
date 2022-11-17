@@ -26,7 +26,7 @@ function Experience({}: Props) {
         Experience
       </h3>
 
-      <div className="w-full">
+      <div className="w-full mb-8 md:mb-0">
         <Swiper
           modules={[EffectCards, Navigation]}
           navigation
