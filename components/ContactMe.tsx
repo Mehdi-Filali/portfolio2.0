@@ -23,11 +23,11 @@ export default function ContactMe({}: Props) {
         Contact
       </h3>
 
-      <div className="flex flex-col w-full space-y-6 md:space-y-10">
+      <div className="flex flex-col w-full space-y-4 md:space-y-10">
         <h4 className="text-xl md:text-4xl font-semibold text-center">
-          Si mon profil t{"'"}interresse{" "}
+          Mon profil t{"'"}interresse ?{" "}
           <span className="italic underline text-[#F7AB0A]/50">
-            Contacte moi 👍.
+            Contacte moi !
           </span>
         </h4>
 
