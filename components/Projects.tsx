@@ -45,7 +45,7 @@ export default function Projects({}: Props) {
                   </span>{" "}
                   {project.projectName}
                 </h4>
-                <p className="text-sm md:text-lg text-center md:text-left">
+                <p className="text-sm md:text-lg text-left">
                   {project.description}
                 </p>
                 <Link href={project.link}>
