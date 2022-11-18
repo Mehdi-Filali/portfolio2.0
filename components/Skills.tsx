@@ -22,7 +22,7 @@ export default function Skills({}: Props) {
         <h4 className="mx-auto w-2/3 uppercase tracking-[10px] text-gray-500 text-md mb-4 xl:mb-8">
           Langages
         </h4>
-        <div className="grid grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 text-center mx-auto w-5/6 mb:w-2/3 mb-4 md:mb-12 xl:mb-24">
+        <div className="grid grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 text-center mx-auto w-5/6 md:w-2/3 mb-4 md:mb-12 xl:mb-24">
           {skillsData.map((item, i) => (
             <motion.div
               key={item.id}
