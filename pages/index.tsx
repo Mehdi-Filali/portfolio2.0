@@ -57,7 +57,7 @@ const Home: NextPage = () => {
 
       {/* footer */}
       <Link href="#hero">
-        <footer className="sticky bottom-20 sm:bottom-10 md:bottom-5 w-full cursor-pointer">
+        <footer className="sticky bottom-20 md:bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
             <p className="hidden md:block md:absolute md:text-xs text-gray-500 md:left-8 xl:left-72">
               {"© " + year + ", Mehdi Aniq-Filali | Tous droits réservés"}
