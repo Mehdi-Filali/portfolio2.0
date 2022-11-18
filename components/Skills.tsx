@@ -18,7 +18,7 @@ export default function Skills({}: Props) {
         Skills
       </h3>
 
-      <div className="w-full mb-8 md:mb-0 md:mt-12">
+      <div className="w-full mb-7 md:mb-0 md:mt-12">
         <h4 className="mx-auto w-2/3 uppercase tracking-[10px] text-gray-500 text-md mb-4 xl:mb-8">
           Langages
         </h4>
